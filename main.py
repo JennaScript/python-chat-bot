@@ -57,6 +57,10 @@ elif bot_activity.lower() == "no":
 else:
   print (f"Well, no worries! It seems as if you are no longer interested in chatting, so I hope you have a great rest of your day, {username}!")
 
+#Get user's favorite book
+book = input (str("After a long day I like to unwind with a good book. So... I'm curious. What is your favorite book? :) "))
+print (f"So yours is {book}! Mine is probably... 'Catcher In The Rye' by J.D. Salinger.")
+
 #Get user's favorite game
 game = input (str("Let's move on to something way more fun! What is your favorite video game?" ))
 print (f"OMG! Your favorite game is {game}! I personally LOVE Call of Duty... Mobile. Don't laugh. I know they say mobile gaming doesn't count. But hey, it does to me. ;)")
@@ -85,4 +89,4 @@ while True:
   print(user_food)
 
 #Goodbye for now
-print ("I think it is time for me to go ahead and make a meal! All that talk about food.... Hehe, but it was so wonderful chatting with you! Hope you can visit my city sometime soon!")
+print ("I think it is time for me to go ahead and make a meal! All that talk about food... Hehe, but it was so wonderful chatting with you! Hope you can visit my city sometime soon!")
