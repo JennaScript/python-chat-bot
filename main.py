@@ -57,7 +57,7 @@ else:
   print (f"Well, no worries! It seems as if you are no longer interested in chatting, so I hope you have a great rest of your day, {username}!")
 
 #Get user's favorite book
-book = input (str("After a long day I like to unwind with a good book. So... I'm curious. What is your favorite book? :) "))
+book = input (str("After a long day, there is nothing like unwinding with a good book. So... I'm curious. What is your favorite book? :) "))
 print (f"So yours is {book}! Mine is probably... 'Catcher In The Rye' by J.D. Salinger.")
 
 #Get user's favorite game
