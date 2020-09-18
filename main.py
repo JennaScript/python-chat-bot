@@ -36,7 +36,6 @@ def get_bot_response(user_response):
       return "You do you! :)"
       
 #Get user mood
-#user_response = ""
 while True:
   user_response = input("How are you feeling today? (Happy or sad? Type 'done' for next question.) ")
   if user_response == 'done':
@@ -80,7 +79,6 @@ def get_user_food(user_food):
       return "I am always open to trying out new dishes! :)"
 
 #Get user's favorite food
-#user_food = ""
 while True:
   user_food = input("Geez... all this talk about gaming is making me hungry. I usually love to top off a great gaming session with a savory meal! Hmm... Which food is your favorite: sushi, burritos, or burgers? (Type 'done' for next interaction.) ")
   if user_food == 'done':
