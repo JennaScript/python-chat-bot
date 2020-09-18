@@ -89,4 +89,4 @@ while True:
   print(user_food)
 
 #Goodbye for now
-print ("I think it is time for me to go ahead and make a meal! All that talk about food... Hehe, but it was so wonderful chatting with you! Hope you can visit my city sometime soon!")
+print ("I think it is time for me to go ahead and make a meal! All that talk about food... Hehe, but it was so wonderful chatting with you! I truly hope you can visit my city sometime soon!")
