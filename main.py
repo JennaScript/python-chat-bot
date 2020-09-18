@@ -58,7 +58,7 @@ else:
   print (f"Well, no worries! It seems as if you are no longer interested in chatting, so I hope you have a great rest of your day, {username}!")
 
 #Get user's favorite game
-game = input (str("Let's move on to something way more fun! What is your favorite video game?"))
+game = input (str("Let's move on to something way more fun! What is your favorite video game?" ))
 print (f"OMG! Your favorite game is {game}! I personally LOVE Call of Duty... Mobile. Don't laugh. I know they say mobile gaming doesn't count. But hey, it does to me. ;)")
 
 #Create function for user's favorite food
@@ -78,11 +78,11 @@ def get_user_food(user_food):
 #Get user's favorite food
 #user_food = ""
 while True:
-  user_food = input("Geez... all this talk about gaming is making me hungry. I usually love to top off a great gaming session with a savory meal! Hmm... Which food is your favorite: sushi, burritos, or burgers? (Type 'done' for next question.) ")
+  user_food = input("Geez... all this talk about gaming is making me hungry. I usually love to top off a great gaming session with a savory meal! Hmm... Which food is your favorite: sushi, burritos, or burgers? (Type 'done' for next interaction.) ")
   if user_food == 'done':
     break
   user_food = get_user_food(user_food)
   print(user_food)
 
 #Goodbye for now
-print ("I think it is time for me to go ahead and make a meal! All that talk about food.... Hehe, but it was so wonderful chatting with you! Hope you can visit sometime soon!")
+print ("I think it is time for me to go ahead and make a meal! All that talk about food.... Hehe, but it was so wonderful chatting with you! Hope you can visit my city sometime soon!")
