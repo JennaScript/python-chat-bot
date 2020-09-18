@@ -1,4 +1,4 @@
-#Pocket Pen Pal
+#Pocket Pen Pal 
 
 #Username Input 
 print ("Welcome to Pocket Pen Pal! Let's get started!")
@@ -28,13 +28,13 @@ from random import choice
 def get_bot_response(user_response):
   bot_response_happy = ["That's so good to hear!", "That makes ME happy to hear!", "There is nothing that makes me happier!"]
   bot_response_sad = ["Don't worry. You're not alone!", "I wish there was something I could do to help you feel better!", "Well I'm sorry, but hey, I'm sending you only the best of vibes!"]
-  if user_response == "happy":
+  if user_response.lower() == "happy":
     return choice(bot_response_happy)
-  elif user_response == "sad":
+  elif user_response.lower() == "sad":
     return choice(bot_response_sad)
   else:
       return "You do you! :)"
-      
+
 #Get user mood
 while True:
   user_response = input("How are you feeling today? (Happy or sad? Type 'done' for next question.) ")
@@ -69,11 +69,11 @@ def get_user_food(user_food):
   user_food_sushi = ["I love California rolls!", "I absolutely adore Spider rolls!", "OMG, tempura with ANY sushi and then add miso soup... Yuuuums."]
   user_food_burritos = ["A steak burrito can hit the spot!", "I'm such a huge fan of any burrito bowl known to man AND woman!", "Burritos without chips and salsa? Whaaaat?! AM I RIGHT OR AM I RIGHT?"]
   user_food_burgers = ["In N Out is my favorite burger joint!", "I can't blame you... a burger and fries is classic. Oh, can't forget the milkshake... strawberry for me, please!", "Yes! Just don't forget to pair it with a nice side of fries and a shake! :)"]
-  if user_food == "sushi":
+  if user_food.lower() == "sushi":
     return choice(user_food_sushi)
-  elif user_food == "burritos":
+  elif user_food.lower() == "burritos":
     return choice(user_food_burritos)
-  elif user_food == "burgers":
+  elif user_food.lower() == "burgers":
     return choice(user_food_burgers)
   else:
       return "I am always open to trying out new dishes! :)"
