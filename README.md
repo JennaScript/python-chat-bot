@@ -1,6 +1,6 @@
 Pocket Pen Pal
 Created by Jennalyn Kabiling 
-Version Python 3.8.5 
+Built with Python 3.8.5 
 
 BETA Version - still not a complete chat bot just yet :)
 
