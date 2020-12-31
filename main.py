@@ -50,7 +50,7 @@ print ("That is pretty rad.")
 #Ask user if they want to hear what you did today
 bot_activity = input (str("Do you want to hear what I did today? (Yes or No?) "))
 if bot_activity.lower() == "yes":
-  print ("I actually was a tourist in my own city today! I visited all the hot travel destinations in my area!")
+  print ("I actually was a tourist in my own city today! I visited all the popular travel destinations in my area!")
 elif bot_activity.lower() == "no":
   print ("That's alright. :)")
 else:
